@@ -16,6 +16,16 @@ body {
     background-position: center;
     background-size: 250px
 }
+.navbar-footer {
+    font-size: 18px;
+//    background-color: #2B7A78;
+    padding-bottom: 30px;
+    border-top: 1.5px solid rgba(255, 255, 255, 1);
+    background-image: url(../img/corosave_white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px
+}
 
 .main-nav {
     list-style-type: none;
@@ -441,4 +451,26 @@ body {
         width: 100%;
         padding: 0;
     }
+}
+
+/* below is just for demo styling */
+  
+a {
+  color: white !important;
+  text-decoration: none !important;
+  background-color: transparent; // Remove the gray background on active links in IE 10.
+  -webkit-text-decoration-skip: objects; // Remove gaps in links underline in iOS 8+ and Safari 8+.
+}
+
+a:hover {
+  color: black !important;
+}
+
+.text-inbox {
+  color: black !important;
+  text-decoration: underline !important;
+}
+
+.footer-copyright {
+  background: white;
 }
